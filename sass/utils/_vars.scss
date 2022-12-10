@@ -1,0 +1,30 @@
+$primary-white-color: #ffffff;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent-color: #2196f3;
+$secondary-background-color: #2f303a;
+$accent-background-color: #f5f4fa;
+$svg-color: #afb1b8;
+$engage-background-color: rgba(47, 48, 58, 0.8);
+$project-thumb-background-color: rgba(33, 150, 243, 0.9);
+$backdrop-color: rgba(0, 0, 0, 0.2);
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$tr-delay: 250ms;
+$rogoto-font: "Roboto", sans-serif;
+$raleway-font: "Raleway", sans-serif;
+
+
+// @mixin flexCenter($type:flex, $main-axis:center, $cross-axis:center){
+//     display: $type;
+//     justify-content: $main-axis;
+//     align-items: $cross-axis;
+// } 
+
+%section { 
+    @media screen and (max-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    padding-top: 94px; 
+    padding-bottom: 94px; 
+}

@@ -1,0 +1,22 @@
+/* Overlay */
+.project__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 294px;
+  background-color: $project-thumb-background-color;
+  transition: transform $tr-delay $transition-timing-function;
+  transform: translateY(101%);
+  padding: 63px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: $primary-white-color;
+}
+
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay {
+  transform: translateY(0);
+}
